@@ -1,0 +1,49 @@
+#container {
+    background-color: rgba(13, 11, 11, 0.898);
+    padding-bottom: 3rem;
+}
+
+.hero {
+    background-image: url("https://media1.giphy.com/media/mJWB6iIK0aHPa/giphy.gif?cid=ecf05e47p2sa5657v8w2wh40t88ifaslonreqmzv68o8txpo&rid=giphy.gif&ct=g");
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-image: url("https://media4.giphy.com/media/WrHrrwqxCTTb7uKQQX/giphy.gif?cid=ecf05e47fadarayse91hao8v2ijqabjccwkk43kle5955v8m&rid=giphy.gif&ct=g");
+    margin-top: 10px;
+}
+
+.choices {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.options {
+    flex-basis: 25%;
+    margin: 1rem 2rem;
+    border: 1px solid rgb(249, 211, 21);
+    background-color: rgb(249, 211, 21);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
+.customOrders {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1rem 0 0rem 2rem;
+    color:  rgb(4, 246, 250);
+    font-size: 1rem;
+}
+
+.thankYou {
+    display: flex;
+    justify-content: center;
+    color:rgb(197, 4, 250);
+    padding-top: 2rem;
+}
